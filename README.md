@@ -1,5 +1,4 @@
 ## Oi -__-, sei lá
-
 <!--
 <h3>Minhas Redes:</h3>
 <div style="display: inline_block">
@@ -19,6 +18,9 @@ $me = array(
 ```
 
 ### About me
+<div>
+  <img src="murilaw.png" height="200px">
+</div>
 <ul>
 <li>📚 Systems Development</li>
 <li>📖 C#, C++, PHP, SQL, and Java.</li>
