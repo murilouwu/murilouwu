@@ -1,10 +1,12 @@
 ## Oi -__-, sei lá
-<!--
 <h3>Minhas Redes:</h3>
 <div style="display: inline_block">
   <a href="https://www.facebook.com/profile.php?id=100011276137293" target="_blank"><img align="center" height="30" src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"></a>
+  <a href="https://github.com/murilouwu" target="_blank"><img align="center" height="30" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://twitter.com/v43410730" target="_blank"><img align="center" height="30" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://www.youtube.com/channel/UC5j326FDOeG70i3KixHsTSw" target="_blank"><img align="center" height="30" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
 </div><br>
--->
+
 ```
 $me = array(
   'Name'=>'Murilo Gimenez',
@@ -29,7 +31,7 @@ $me = array(
 </ul>
 
 <div>
-  <a href="https://github.com/KaykSantos">
+  <a href="https://github.com/murilouwu">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=murilouwu&show_icons=true&theme=blue-green&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=murilouwu&layout=compact&langs_count=7&theme=blue-green"/>
 </div>
