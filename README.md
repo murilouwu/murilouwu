@@ -21,7 +21,7 @@ $me = array(
 
 ### About me
 <div>
-  <img src="https://avatars.githubusercontent.com/u/91744520?v=4" height="200px">
+  <img src="murilaw.png" height="200px">
 </div>
 <ul>
 <li>📚 Systems Development</li>
