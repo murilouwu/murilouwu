@@ -1,0 +1,188 @@
+:root{
+  --Black: #1c1230;
+  --Gold: #e6c98d;
+  --BigBlack: #03061a;
+  --ShadowGold: #b37841;
+  --invisible: rgba(0 0 0 / 0%);
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  transition: 0.3s;
+}
+/*web-kit*/
+  input[type=file]{
+    display: none;
+  }
+  ::-webkit-inner-spin-button{
+
+    -webkit-appearance: none;
+  }
+  ::-webkit-scrollbar{
+
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-thumb{
+    background: rgb(0 0 0 /50%);
+    border-radius: 3px;
+  }
+  .ocultar{
+    display: none;
+  }
+  button:focus, button:focus-visible, input:focus-visible, input:focus, select:focus-visible, select:focus, textarea:focus-visible, textarea:focus{
+    outline: none;
+  }
+  input[type=checkbox]{
+      display: none;
+  }
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: overlay;
+}
+
+  .bodye{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40vh;
+    background-color: var(--Gold);
+    padding: 1vh;
+    border-radius: 10px;
+  }
+    .head{
+      display: flex;
+      background-image: url('head.png');
+      width: 8vw;
+      height: 10vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      border-radius: 10vw;
+      margin-bottom: -1vh;
+      z-index: 3;
+    }
+    .main{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 26vh;
+      height: 8vh;
+    }
+      .torco{
+        display: flex;
+        width: 6vw;
+        height: 100%;
+        background-image: url('body.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 8vh;
+        z-index: 3;
+      }
+      .arm{
+        display: flex;
+        width: 7vw;
+        height: 100%;
+        background-image: url('arm.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 0vw 0vh;
+        transform: scaleX(1) rotate(59deg);
+        margin: 4vh 1vw 0vh -3.5vw;
+        animation: 2.5s armA infinite alternate-reverse;
+      }
+      .arm:nth-child(1){
+        transform: scaleX(-1) rotate(59deg);
+        margin: 4vh -3.6vw 0vh 1vw;
+        animation: 2.5s armB infinite alternate-reverse;
+      }
+    .fotter{
+      display: flex;
+      height: 8vh;
+      width: 10vw;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-top: -2.5vh;
+    }
+      .leg{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 30%;
+        margin-left: 3%;
+        transform: scaleX(1);
+      }
+        .leg:nth-child(1){
+          transform: scaleX(-1);
+          margin-left: 0%;
+        }
+        .legUp{
+          display: flex;
+          height: 5vh;
+          background-image: url(legUp.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          width: 100%;
+          z-index: 2;
+        }
+        .legDown{
+          display: flex;
+          height: 5vh;
+          background-image: url(legDown.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          width: 100%;
+          margin-top: -1.4vh;
+          z-index: 1;
+        }
+        .foot{
+          display: flex;
+          height: 5vh;
+          background-image: url(foot.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          width: 100%;
+          margin-top: -1vh;
+          z-index: 1;
+        }
+
+@keyframes armA{
+  0%{
+    transform: scaleX(1) rotate(59deg);
+    margin: 4vh 1vw 0vh -3.5vw;
+  }
+  50%{
+    transform: scaleX(1) rotate(32deg);
+    margin: 3vh 0.5vw 0vh -3vw;
+  }
+  100%{
+    transform: scaleX(1) rotate(74deg);
+    margin: 4vh 1.5vw 0vh -4vw;
+  }
+}
+
+@keyframes armB{
+  0%{
+    transform: scaleX(-1) rotate(59deg);
+    margin: 4vh -3.6vw 0vh 1vw;
+  }
+  50%{
+    transform: scaleX(-1) rotate(32deg);
+    margin: 3vh -3.1vw 0vh 0.5vw;
+  }
+  100%{
+    transform: scaleX(-1) rotate(74deg);
+    margin: 4vh -4.9vw 0vh 2vw;
+  }
+}
