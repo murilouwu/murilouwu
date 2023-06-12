@@ -25,7 +25,7 @@ $me = array(
 </div>
 <ul>
 <li>📚 Systems Development</li>
-<li>📖 C#, C++, PHP, SQL, and Java.</li>
+<li>📖 C#, PHP, SQL, and Java.</li>
 <li>🎵 Tudo menos funk contemporaneo</li>
 <li>🎮 nada sou pobre kkk</li>
 </ul>
