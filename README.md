@@ -10,10 +10,11 @@
 ```
 $me = array(
   'Name'=>'Murilo Gimenez',
-  'Scholl'=>'Etec de Peruíbe',
-  'Age'=>'17',
+  'Scholl'=>None,
+  'proffision'=>'TD',
+  'Age'=>'18',
   'CrencePolitical'=>'Deus',
-  'height'=>1.7;
+  'height'=>1.7?;
   'Sonho'=>'***********'
 );
 
